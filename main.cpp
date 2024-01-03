@@ -1,9 +1,6 @@
 #include <iostream>
 
-using namespace std;
-
-int main(int argt, char const *argv[])
+int main()
 {
-    cout<<'olá mundo';
-    return 0;
+    std::cout << "Hello World" << std::endl;
 }
