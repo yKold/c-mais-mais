@@ -11,8 +11,10 @@ int main(){
 
     if(num1 > num2){
         cout << "valor 1 maior que valor 2";
-    } else {
+    } else if (num1 < num2) {
         cout << "valor 2 maior que valor 1";
+    } else {
+        cout << "caguei";
     }
 
     return 0;
