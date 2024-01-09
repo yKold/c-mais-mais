@@ -10,15 +10,15 @@ int main(){
     double decimal = 5.2; // 2.4999999, 1.39999999
     float decimal2 = 5.3; // 2.5      , 1.4   float padrao
     bool vivo = true; // true 1 or false 0
-    string nome = "Gabriel"; // string padrao
+    string nome = 'a'; // string padrao
 
 
-    cout << "Digite o numero de vidas: "; cin >> vidas;
+    // cout << "Digite o numero de vidas: "; cin >> vidas;
 
-    cout << "Digite uma letra: ";
-    cin >> letra;
+    // cout << "Digite uma letra: ";
+    // cin >> letra;
 
-
+    cin >> nome;
 
 
     cout << vidas << "\n" << letra << "\n" << decimal << "\n";
