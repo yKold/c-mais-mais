@@ -13,7 +13,7 @@ int main() {
     };
     armas armaSel = revolver;
     
-
+    
     cout << armaSel;
 
 
