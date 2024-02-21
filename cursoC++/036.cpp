@@ -13,7 +13,7 @@ int main(){
     cout << ponteiroVeiculo << "\n";
     cout << *ponteiroVeiculo << "\n";
 
-    *ponteiroVeiculo = "Moto";
+    *ponteiroVeiculo = "Moto";  
 
     cout << ponteiroVeiculo << "\n";
     cout << *ponteiroVeiculo << "\n";
