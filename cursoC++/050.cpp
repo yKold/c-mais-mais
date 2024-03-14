@@ -10,8 +10,9 @@ int main(){
 
     ofstream arquivo;
     
-    arquivo.open("cfbcursos.txt");
-    arquivo << "CFB Cursos";
+    arquivo.open("cfbcursos.txt", ios::app);
+    arquivo << "CFB Cursos \n OIII";
+    arquivo.close();
 
     return 0;
 }
